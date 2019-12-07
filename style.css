@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container{
+    background-color: #ededed;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.nav{
+    background-color: #228844;
+    color: #ffffff;
+    height: 45px;
+    width: 100%;
+    padding: 16px 20px;
+    text-transform: uppercase;
+}
+.name{
+    float: left;
+    text-align: center;
+    margin: 0;
+}
+.nav-menu{
+    float: right;
+    padding:10px 15px ;
+    
+}
+.nav-menu a{
+    outline: none;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: aliceblue;
+    transition-duration: 0.5s;
+}
+.nav-menu a:hover{
+    background-color: black;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.main .left{
+    width: 30%;
+    background-color: #aaa;
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+.left a{
+    text-decoration: none;
+}
+ul.demo{
+    font-size: 20px;
+    list-style-type: none;
+    padding: 27px 35px;
+}
+.demo li{
+    padding: 10px;
+}
+
+.main .right{
+    width: 70%;
+    display: inline-block;
+}
+img{
+    opacity: 0.5;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    font-size: 50px;
+transform: translate(-50%, -50%);
+}
+.footer{
+    height: 60px;
+    background-color: #333333;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 29px;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+
+.formbox{
+    /* background: red; */
+    width: 300px;
+}
+
+.formbox input{
+    margin-top: 20px;
+}
