@@ -1,0 +1,134 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-image: url(../1.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+.main-item{
+    display: flex;
+    padding: 10% 0;
+    flex-direction: column;
+}
+.main-item-text{
+    text-align: center;
+   margin: auto;
+}
+.main-item-text h1{
+    font-size: 3em;
+    color: blueviolet; 
+}
+.main-item-text p{
+    font-size: 20px;
+    padding: 0 10px;
+    color: brown;
+}
+.search{
+    align-items: center;
+    padding: 0 23%;
+    margin: 50px;
+}
+.search input[type=text]{
+    width: 60%;
+    border-radius: 32px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.search button{
+    width: 19%;
+    border-radius: 32px;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: black;
+    background-color: darkgoldenrod;
+    transition-duration: 0.5s;
+}
+.find:hover{
+   background-color: skyblue;
+}
+ 
+.middle{
+    display: flex;
+    padding :3%;
+    text-align: center;
+    background-color: chartreuse;
+}
+.main-middle1 img{
+    width: 312px;
+    height: 277.91px;
+    padding: 3%;
+}
+.main-middle2 img{
+    width: 312px;
+    float: none; 
+    padding: 3%;
+}
+.main-middle3 img{
+    width: 312px;
+    height: 277.91px; 
+    padding: 3%;
+}
+.main-middle3 h2{
+    margin-top: 20px;
+}
+.contact-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px 0;
+}
+.contact{
+    background-image: url(../contact-us.jpg);
+    background-size: cover;
+    padding: 80px 0;
+    
+}
+.contact-item h3{
+    text-align: center;
+    font-size: 29px;
+    padding: 10px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+.contact-item input[type=text]{
+    width: 30%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.contact-item input[type=mail]{
+    width: 30%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.contact-item .submit{
+    font-size: 20px;
+    border-radius: 15px;
+    transition-duration: 0.5s;
+}
+.submit:hover{
+ background-color: skyblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
